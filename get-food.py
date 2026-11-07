@@ -1,6 +1,6 @@
-print("KOBBY JONES RESTAURANTE")
+print("KOBBY JONES RESTAURANT")
 #discount
-distance = int(input("\nWhat is the distance of the customer's place from the resturante: "))
+distance = int(input("\nWhat is the distance of the customer's place from the restaurant: "))
 #order weight
 order_weight = int(input("What is the weight of the order: "))
 #if is a regular customer
@@ -13,8 +13,8 @@ if is_customer == "yes":
     discount_applied = True
     print("\nCustomers get 10% discount today")
     print(f'ORDER FEE: GHS{discount:.2f}')
-    print("Thanks for choosing KOBBY JONES RESTURANTE, enjoy your day")
+    print("Thanks for choosing KOBBY JONES RESTAURANT, enjoy your day")
 #non regular customers delivery fees
 else:
     print(f"\nORDER FEE: GHS{delivery_fee:.2f}")
-    print("Thanks for choosing KOBBY JONES RESTAURANTE, enjoy your day")
+    print("Thanks for choosing KOBBY JONES RESTAURANT, enjoy your day")
